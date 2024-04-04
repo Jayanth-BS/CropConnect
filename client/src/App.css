@@ -850,3 +850,101 @@ h3 {
 p {
   color: #555;
 }
+
+
+/* app.css */
+
+/* Container styling */
+.container {
+ 
+}
+
+/* Form styling */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #f44336; /* Red */
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+}
+
+.y_head{
+  font-size:xx-large;
+  color: #4CAF50;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.y_out{
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.y_out {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.prediction-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+
+/* Yield prediction */
+.yield-prediction {
+  margin-top: 20px;
+}
+
+.yield-prediction h3 {
+  margin-bottom: 10px;
+}
